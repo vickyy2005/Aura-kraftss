@@ -1,5 +1,5 @@
 {
-  "name": "my-project",
+  "name": "aura-kraftss",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -30,9 +30,7 @@
     "tailwindcss": "^4.3.3",
     "typescript": "5.7.3"
   },
-  "pnpm": {
-    "overrides": {
-      "hono": "4.12.25"
-    }
+  "overrides": {
+    "hono": "4.12.25"
   }
 }
