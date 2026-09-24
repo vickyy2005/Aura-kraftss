@@ -1,0 +1,38 @@
+# Dependencies
+node_modules
+/.pnp
+.pnp.js
+
+# Testing & build
+/coverage
+/.next/
+/out/
+/build
+.vercel/
+
+# Misc
+.DS_Store
+*.pem
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local env files
+.env*.local
+.env
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# IDE and tool configs
+.idea
+.vscode
+.agents
+
+# Root raw uploads (served from public/attachments instead)
+attachments.zip
+/attachments/
+/*.jpg
+/*.zip
